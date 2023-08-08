@@ -18,3 +18,7 @@
 
 # Выбираем пункт 1) продолжить установку (по умолчанию).
 <img src = https://img2.teletype.in/files/52/fd/52fda65d-6438-4d73-abc9-09d896c49b8c.png>
+
+### активируем среду Rust для текущей оболочки
+```shell source ~/.profile ```
+```shell source ~/.cargo/env ```
