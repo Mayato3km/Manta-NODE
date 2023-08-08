@@ -48,4 +48,8 @@ git clone https://github.com/Manta-Network/manta-rs.git
 cd manta-rs
 cargo run --release --package manta-trusted-setup --all-features --bin groth16_phase2_client register
 ```
+## После завершения установки указываем свой твиттер и почту.
 
+# На экран выведется информация с вашим публичным ключем, подписью и секретной фразой. 
+<img src = https://img3.teletype.in/files/2c/33/2c338476-3f31-4f7e-baec-391b5214fae6.png>
+## данные со всех "зеленых" строк вводим в форму - https://mantanetwork.typeform.com/TrustedSetup
