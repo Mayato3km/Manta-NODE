@@ -21,4 +21,5 @@
 
 ### активируем среду Rust для текущей оболочки
 ```shell source ~/.profile ```
+
 ```shell source ~/.cargo/env ```
