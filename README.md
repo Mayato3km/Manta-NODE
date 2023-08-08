@@ -22,4 +22,16 @@
 ### активируем среду Rust для текущей оболочки
 ```shell source ~/.profile ```
 
-```shell source ~/.cargo/env ```
+```shell source ~/.cargo/env ``` 
+
+# Установка ноды :
+ 
+### 1. Клонируем репозиторий:
+```shell git clone https://github.com/Manta-Network/manta-rs.git ```
+
+### 2. Переходим в папку с проектом и устанавливаем ноду:
+```shell
+cd manta-rs
+cargo run --release --package manta-trusted-setup --all-features --bin groth16_phase2_client register
+```
+
